@@ -1,0 +1,205 @@
+{
+    "name": "M. Brandon Lorenz",
+    "meta": {
+        "format": "FRESH@0.6.0",
+        "version": "0.5.0"
+    },
+    "projects": [
+        {
+            "title": "HackMyResume",
+            "category": "FOSS",
+            "role": "contributor",
+            "url": "https://fluentdesk.com/hackmyresume",
+            "start": "2015-09",
+            "repo": "https://github.com/hacksalot/hackmyresume",
+            "description": "A resume authoring and analysis tool for OS X, Linux, and Windows.",
+            "summary": "Exemplar user for HackMyResume and FluentCV!",
+            "keywords": [
+                "JavaScript",
+                "Node.js",
+                "cross-platform",
+                "JSON"
+            ],
+            "media": [
+                {
+                    "category": "download",
+                    "url": "https://www.npmjs.com/package/hackmyresume"
+                }
+            ]
+        },
+        {
+            "title": "Augmented Android",
+            "category": "commercial",
+            "role": "co-creator",
+            "url": "https://project.website.com",
+            "repo": "https://repo.website.com",
+            "description": "An augmented reality app for Android.",
+            "start": "2012-02",
+            "end": "2014-01",
+            "summary": "Performed flagship product conceptualization and development.",
+            "keywords": [
+                "Android",
+                "Java",
+                "Xamarin"
+            ]
+        },
+        {
+            "title": "Blog",
+            "category": "personal",
+            "role": "creator",
+            "url": "https://www.janeblogs.com",
+            "description": "My programming blog. Powered by Jekyll.",
+            "summary": "Conceptualization, design, development, and deployment.",
+            "keywords": [
+                "Jekyll",
+                "Ruby",
+                "HTML 5",
+                "JavaScript",
+                "HTTP"
+            ]
+        }
+    ],
+    "employment": {
+        "summary": "Founded in 2011.",
+        "history": [
+            {
+                "employer": "Area 52",
+                "url": "https://area52.io/does-not-exist",
+                "position": "Head Code Ninja",
+                "summary": "Development team manager for [**Quantum Diorama**](https://en.wikipedia.org/wiki/Vaporware), a distributed molecular modeling and analysis suite for Linux and OS X.",
+                "start": "2013-09",
+                "keywords": [
+                    "Agile",
+                    "PM",
+                    "C",
+                    "C++",
+                    "R",
+                    "OpenGL",
+                    "Boost",
+                    "MySQL",
+                    "PostgreSQL",
+                    "JIRA"
+                ],
+                "highlights": [
+                    "Managed a 5-person development team",
+                    "Accomplishment 2",
+                    "Etc."
+                ]
+            }
+
+        ]
+    },
+    "skills": {
+        "sets": [
+            {
+                "name": "Web",
+                "level": "advanced",
+                "skills": [
+                    "Python",
+                    "Django",
+                    "JavaScript",
+                    "HTML5",
+                    "CSS",
+                    "REST",
+                    "GraphQL"
+                ]
+            },
+            {
+                "name": "JavaScript",
+                "level": "master",
+                "skills": [
+                    "ReactJS",
+                    "NodeJS",
+                    "Webpack",
+                    "Babel"
+                ]
+            },
+            {
+                "name": "Database",
+                "level": "intermediate",
+                "skills": [
+                    "PostgreSQL",
+                    "MySQL"
+                ]
+            },
+            {
+                "name": "Containerization",
+                "level": "intermediate",
+                "skills": [
+                    "Docker",
+                    "docker-compose"
+                ]
+            },
+            {
+                "name": "sysadmin",
+                "level": "advanced",
+                "skills": [
+                    "Linux"
+                ]
+            },
+            {
+                "name": "AWS",
+                "level": "advanced",
+                "skills": [
+                    "EB",
+                    "EC2",
+                    "ECR",
+                    "RDS",
+                    "S3"
+                ]
+            },
+            {
+                "name": "Project",
+                "level": "advanced",
+                "skills": [
+                    "Agile",
+                    "Trello",
+                    "JIRA",
+                    "GitHub"
+                ]
+            }
+        ],
+        "list": [
+            {
+                "name": "C++",
+                "id": "1",
+                "summary": "Optional summary of your experience with the skill.",
+                "level": "9",
+                "years": 7,
+                "proof": "http://myblog.com/interesting-cplusplus-post"
+            },
+            {
+                "name": "Ruby",
+                "id": "2",
+                "summary": "Optional summary of your experience with the skill.",
+                "level": "9",
+                "years": 7,
+                "proof": "http://myblog.com/interesting-cplusplus-post"
+            },
+            {
+                "name": "Xcode",
+                "summary": "Xcode 6 development.",
+                "level": "5",
+                "years": "3"
+            },
+            {
+                "name": "Linux",
+                "summary": "Optional summary of your experience with the skill.",
+                "level": "advanced",
+                "years": "4+"
+            },
+            {
+                "name": "Agile",
+                "summary": "Optional summary of your experience with the skill.",
+                "level": "B+",
+                "years": 2
+            }
+        ]
+    },
+    "languages": [
+        {
+            "language": "English",
+            "level": "Native"
+        }
+    ]
+}

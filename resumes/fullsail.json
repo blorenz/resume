@@ -1,0 +1,62 @@
+{
+    "name": "M. Brandon Lorenz",
+    "meta": {
+        "format": "FRESH@0.6.0",
+        "version": "0.5.0"
+    },
+    "education": {
+        "summary": "",
+        "level": "degree",
+        "degree": "BSCS",
+        "history": [
+            {
+                "institution": "Cornell University",
+                "title": "BSCS",
+                "url": "https://www.cornell.edu/",
+                "start": "2005-09",
+                "end": "2008-05",
+                "grade": "3.5",
+                "summary": "A multiline summary of the education.",
+                "curriculum": [
+                    "Course 1",
+                    "Course 2",
+                    "Course 2"
+                ]
+            },
+            {
+                "institution": "Medfield College",
+                "title": "",
+                "url": "https://en.wikipedia.org/wiki/Medfield_College",
+                "start": "2003-09",
+                "end": "2005-06",
+                "grade": "3.2",
+                "summary": "A multiline summary of the education.",
+                "curriculum": [
+                    "Course 1",
+                    "Course 2",
+                    "Course 2"
+                ]
+            }
+        ]
+    },
+    "skills": {
+    },
+    "references": [
+        {
+            "name": "Eric Preisz",
+            "flavor": "professional",
+            "contact": [
+                {
+                    "label": "Mobile",
+                    "flavor": "phone",
+                    "value": "9-(999)-999-9999"
+                },
+                {
+                    "label": "Work email",
+                    "flavor": "email",
+                    "value": "jdavidson@veridiandynamics.com"
+                }
+            ]
+        }
+    ]
+}
