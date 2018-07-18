@@ -1,60 +1,21 @@
 {
-    "name": "M. Brandon Lorenz",
-    "meta": {
-        "format": "FRESH@0.6.0",
-        "version": "0.5.0"
-    },
-
-    "projects": [
-
-    ],
-    "employment": {
-        "summary": "DSCI engineer in the Defense and Aerospace Industry",
-        "history": [
-            {
-                "employer": "DSCI",
-                "url": "https://dsci.com",
-                "position": "Head Code Ninja",
-                "summary": "Defense and Aerospace development.",
-                "start": "2007-09",
-                "end": "2011-04",
-                "keywords": [
-                    "C",
-                    "C++",
-                    "Embedded Software",
-                    "OpenGL",
-                    "Boost"
-                ],
-                "highlights": [
-                    "Managed small team on two projects. I fulfilled small-scale managerial roles on contract development.",
-                    "Assisted with composing and delivering bids for contracts.",
-                    "Presented deliverables to clients or potential clients.",
-                    "Conducted site visits and surveys to assess problems and discover solutions."
-                ]
-            }
-
-        ]
-    },
-    "references": [
-        {
-            "name": "Donald Stoner",
-            "flavor": "professional",
-            "private": true,
-            "contact": [
-                {
-                    "label": "Mobile",
-                    "flavor": "phone",
-                    "value": "9-(999)-999-9999"
-                },
-                {
-                    "label": "Work email",
-                    "flavor": "email",
-                    "value": "jdavidson@veridiandynamics.com"
-                }
-            ]
-        }
-    ]
-
-
-
+  "basics": {
+    "name": "M. Brandon Lorenz"
+  },
+  "work": [
+    {
+      "company": "DSCI",
+      "website": "https://dsci.com",
+      "position": "Head Code Ninja",
+      "startDate": "2007-09",
+      "endDate": "2011-04",
+      "summary": "Defense and Aerospace development.",
+      "highlights": [
+        "Managed small team on two projects. I fulfilled small-scale managerial roles on contract development.",
+        "Assisted with composing and delivering bids for contracts.",
+        "Presented deliverables to clients or potential clients.",
+        "Conducted site visits and surveys to assess problems and discover solutions."
+      ]
+    }
+  ]
 }

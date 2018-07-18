@@ -1,129 +1,71 @@
 {
+  "basics": {
+    "label": "Sr. Developer",
+    "characterClass": "Programmer",
+    "quote": null,
+    "website": "https://www.mblorenz.com",
+    "phone": "859-801-5522",
+    "email": "mbl@mblorenz.com",
+    "other": [
+      {
+        "label": "Personal Email",
+        "flavor": "email",
+        "value": "blorenz@gmail.com"
+      }
+    ],
     "name": "M. Brandon Lorenz",
-    "meta": {
-        "format": "FRESH@0.6.0",
-        "version": "0.5.0"
-    },
-    "info": {
-        "label": "Sr. Developer",
-        "characterClass": "Programmer",
-        "brief": null,
-        "image": null,
-        "quote": null
-    },
-    "contact": {
-        "website": "https://www.mblorenz.com",
-        "phone": "859-801-5522",
-        "email": "mbl@mblorenz.com",
-        "other": [
-            {
-                "label": "Personal Email",
-                "flavor": "email",
-                "value": "blorenz@gmail.com"
-            }
-        ]
-    },
-    "location": {
-        "address": "12451 Saylor Road NW",
-        "city": "Baltimore",
-        "region": "OH",
-        "code": "43105",
-        "country": "US"
-    },
-    "social": [
-        {
-            "label": "GitHub",
-            "network": "GitHub",
-            "user": "blorenz",
-            "url": "https://github.com/blorenz"
-        }
-    ],
-    "affiliation": {
-        "summary": "Member of numerous collegiate and professional groups and organizations.",
-        "history": [
-            {
-                "role": "Member",
-                "organization": "Apple Developer Network",
-                "url": "https://developer.apple.com/",
-                "summary": "Member of the [Apple Developer program](https://developer.apple.com/) since 2011."
-            }
-        ]
-    },
-    "service": {
-        "summary": "Active US Army Reserve member and Technology for Tots technical consultant and volunteer coordinator.",
-        "history": [
-            {
-                "flavor": "volunteer",
-                "position": "Technical Consultant",
-                "organization": "Technology for Tots",
-                "url": "http://technology-for-tots.org",
-                "start": "2003-11",
-                "end": "2005-06",
-                "summary": "Summary of this volunteer stint.",
-                "highlights": [
-                    "Accomplishment 1",
-                    "Accomplishment 2",
-                    "etc"
-                ]
-            },
-            {
-                "flavor": "military",
-                "position": "NCO",
-                "organization": "US Army Reserves",
-                "url": "http://www.usar.army.mil/",
-                "start": "1999-11",
-                "end": "2003-06",
-                "summary": "Summary of this military stint.",
-                "highlights": [
-                    "Accomplishment 1",
-                    "Accomplishment 2",
-                    "etc"
-                ]
-            }
-        ]
-    },
-    "skills": {
-    },
-    "samples": [
-
-    ],
-    "writing": [
-
-    ],
-    "reading": [
-
-    ],
-    "speaking": [
-
-    ],
-    "recognition": [
-
-    ],
-    "references": [
-
-    ],
-    "testimonials": [
-
-    ],
-    "languages": [
-        {
-            "language": "English",
-            "level": "Native"
-        }
-
-    ],
-    "extracurricular": [
-
-    ],
-    "governance": [
-
-    ],
-    "interests": [
-        {
-            "name": "hockey",
-            "summary": "Jane is a fan of mystery novels and courtroom dramas including Agatha Christie and John Grisham."
-
-        }
-
+    "summary": null,
+    "picture": null,
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "blorenz",
+        "url": "https://github.com/blorenz"
+      }
     ]
+  },
+  "skills": [],
+  "volunteer": [
+    {
+      "flavor": "volunteer",
+      "organization": "Technology for Tots",
+      "position": "Technical Consultant",
+      "startDate": "2003-11",
+      "endDate": "2005-06",
+      "website": "http://technology-for-tots.org",
+      "summary": "Summary of this volunteer stint.",
+      "highlights": [
+        "Accomplishment 1",
+        "Accomplishment 2",
+        "etc"
+      ]
+    },
+    {
+      "flavor": "military",
+      "organization": "US Army Reserves",
+      "position": "NCO",
+      "startDate": "1999-11",
+      "endDate": "2003-06",
+      "website": "http://www.usar.army.mil/",
+      "summary": "Summary of this military stint.",
+      "highlights": [
+        "Accomplishment 1",
+        "Accomplishment 2",
+        "etc"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "hockey",
+      "summary": "Jane is a fan of mystery novels and courtroom dramas including Agatha Christie and John Grisham."
+    }
+  ],
+  "references": 0,
+  "languages": [
+    {
+      "language": "English",
+      "level": "Native"
+    }
+  ]
 }
