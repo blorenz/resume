@@ -162,4 +162,12 @@ section h2 {
 	border-bottom: 0;
 }
 
+h5 {
+	margin:0;
+	text-transform: uppercase;
+}
+#interests .summary {
+	font-size: 90%;
+}
+
 

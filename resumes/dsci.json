@@ -1,12 +1,10 @@
 {
-  "basics": {
-    "name": "M. Brandon Lorenz"
-  },
+
   "work": [
     {
       "company": "DSCI",
       "website": "https://dsci.com",
-      "position": "Head Code Ninja",
+      "position": "Programmer",
       "startDate": "2007-09",
       "endDate": "2011-04",
       "summary": "Defense and Aerospace development.",

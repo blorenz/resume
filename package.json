@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "dotsunited-merge-json resumes/*.json > resume.json && hackmyresume build resume.json TO out/resume.html -t themes/jsonresume-theme-short && open out/resume.html",
+    "start": "dotsunited-merge-json resumes/*.json > resume.json && hackmyresume build resume.json TO docs/index.html -t themes/jsonresume-theme-short && open docs/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

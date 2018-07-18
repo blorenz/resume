@@ -1,0 +1,73 @@
+{
+
+
+  "skills": [
+    {
+      "name": "Web",
+      "level": "advanced",
+      "keywords": [
+        "Python",
+        "Django",
+        "JavaScript",
+        "HTML5",
+        "CSS",
+        "REST",
+        "GraphQL"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "master",
+      "keywords": [
+        "ReactJS",
+        "NodeJS",
+        "Webpack",
+        "Babel"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "intermediate",
+      "keywords": [
+        "PostgreSQL",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Containerization",
+      "level": "intermediate",
+      "keywords": [
+        "Docker",
+        "docker-compose"
+      ]
+    },
+    {
+      "name": "sysadmin",
+      "level": "advanced",
+      "keywords": [
+        "Linux"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "advanced",
+      "keywords": [
+        "EB",
+        "EC2",
+        "ECR",
+        "RDS",
+        "S3"
+      ]
+    },
+    {
+      "name": "Project",
+      "level": "advanced",
+      "keywords": [
+        "Agile",
+        "Trello",
+        "JIRA",
+        "GitHub"
+      ]
+    }
+  ]
+}

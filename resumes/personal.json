@@ -24,48 +24,20 @@
       }
     ]
   },
-  "skills": [],
-  "volunteer": [
-    {
-      "flavor": "volunteer",
-      "organization": "Technology for Tots",
-      "position": "Technical Consultant",
-      "startDate": "2003-11",
-      "endDate": "2005-06",
-      "website": "http://technology-for-tots.org",
-      "summary": "Summary of this volunteer stint.",
-      "highlights": [
-        "Accomplishment 1",
-        "Accomplishment 2",
-        "etc"
-      ]
-    },
-    {
-      "flavor": "military",
-      "organization": "US Army Reserves",
-      "position": "NCO",
-      "startDate": "1999-11",
-      "endDate": "2003-06",
-      "website": "http://www.usar.army.mil/",
-      "summary": "Summary of this military stint.",
-      "highlights": [
-        "Accomplishment 1",
-        "Accomplishment 2",
-        "etc"
-      ]
-    }
-  ],
+
   "interests": [
     {
       "name": "hockey",
-      "summary": "Jane is a fan of mystery novels and courtroom dramas including Agatha Christie and John Grisham."
+      "summary": "I play for the Columbus Thunder in the Columbus Adult Hockey D League. I have contributed to three Championship wins since starting hockey in Jan 2015."
     }
   ],
   "references": 0,
-  "languages": [
+  "languagesPH": [
     {
       "language": "English",
       "level": "Native"
     }
+
+
   ]
 }

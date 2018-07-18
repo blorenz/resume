@@ -80,7 +80,7 @@
     {{#if resume.work.length}}
         <section class="experience">
             <h2>Experience</h2>
-            {{#each resume.work}}
+            {{#each_with_sort resume.work "priority"}}
                 <section class="item">
                     <header>
                         {{#if company}}
@@ -175,14 +175,65 @@
                             {{/each}}
                         </ul>
                     {{/if}}
+                    {{#if clients.length}}
+                        <br/>
+                        <h2>Clients at {{company}}</h2>
+
+                        <ul class="highlights">
+                            {{#each clients}}
+                                <section class="item">
+                                    <header>
+                                        {{#if title}}
+                                            <h3 class="name">{{title}}</h3>
+                                        {{/if}}
+                                    </header>
+                                    {{#if position}}
+                                        <span class="position">
+                                            {{position}}
+                                        </span>
+                                    {{/if}}
+                                    {{#if startDate}}
+                                        <span class="startDate">
+                                            {{date startDate}}
+                                        </span>
+                                    {{/if}}
+                                    {{#if endDate}}
+                                        <span class="endDate">
+                                        - {{date endDate}}
+                                    </span>
+                                                            {{else}}
+                                                                <span class="endDate">
+                                        - Present
+                                    </span>
+                                    {{/if}}
+
+                                    {{#if summary}}
+                                        <div class="summary">
+                                            <p>{{paragraphSplit summary}}</p>
+                                        </div>
+                                    {{/if}}
+
+                                    {{#if highlights.length}}
+                                        <ul class="highlights">
+                                            {{#each highlights}}
+                                                <li>{{.}}</li>
+                                            {{/each}}
+                                        </ul>
+                                    {{/if}}
+
+                                </section>
+                            {{/each}}
+                        </ul>
+                    {{/if}}
                 </section>
-            {{/each}}
+            {{/each_with_sort}}
         </section>
     {{/if}}
 
-    <h3>here</h3>
-    {{#if resume.projects.length}}
-        <h2>Projects</h2>
+
+
+    {{#if resume.clients.length}}
+        <h2>Clients</h2>
         <ul class="highlights">
             {{#each resume.projects}}
                 <li>{{title}}</li>
@@ -214,7 +265,7 @@
 
     {{#if resume.education.length}}
         <section id="education">
-            <h2>Formation</h2>
+            <h2>Education</h2>
             {{#each resume.education}}
                 <div class="item">
                     <header>
@@ -267,7 +318,7 @@
 
     {{#if resume.awards.length}}
         <section id="awards">
-            <h2>Formations</h2>
+            <h2>Awards and Recognitions</h2>
             {{#each resume.awards}}
                 <div class="item">
                     {{#if title}}
@@ -328,7 +379,7 @@
 
     {{#if resume.languages.length}}
         <section id="languages">
-            <h2>Langues</h2>
+            <h2>Languages</h2>
             {{#each resume.languages}}
                 <div class="item">
                     {{#if language}}
@@ -348,12 +399,17 @@
 
     {{#if resume.interests.length}}
         <section id="interests">
-            <h2>Intérêts</h2>
+            <h2>Personal Interests</h2>
             {{#each resume.interests}}
                 <div class="item">
                     {{#if name}}
-                        <div class="name">
+                        <h5 class="name">
                             {{name}}
+                        </h5>
+                    {{/if}}
+                    {{#if summary}}
+                        <div class="summary">
+                            {{summary}}
                         </div>
                     {{/if}}
                     {{#if keywords.length}}

@@ -2,5 +2,25 @@
   "basics": {
     "name": "M. Brandon Lorenz"
   },
-  "work": []
+  "work": [
+    {
+      "company": "Sogeti",
+      "website": "https://sogeti.com",
+      "position": "Contractor",
+      "startDate": "2011-04",
+      "endDate": "2011-12",
+      "summary": "Contractor Developer",
+      "clients": [
+        {
+          "title": "Abercrombie & Fitch",
+          "url": "https://anf.com",
+          "position": "contractor",
+          "startDate": "2011-04",
+          "endDate": "2011-09",
+          "summary": "work"
+
+        }
+      ]
+    }
+  ]
 }

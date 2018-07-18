@@ -1,35 +1,15 @@
 {
-  "basics": {
-    "label": "Senior Developer",
-    "characterClass": "Programmer",
-    "quote": null,
-    "name": "M. Brandon Lorenz",
-    "summary": null,
-    "picture": null
-  },
+
   "work": [],
-  "skills": [
-    {
-      "name": "Military Policeman",
-      "level": "advanced",
-      "keywords": [
-        "JavaScript",
-        "HTML 5",
-        "CSS",
-        "LAMP",
-        "MVC",
-        "REST"
-      ]
-    }
-  ],
+
   "volunteer": [
     {
       "flavor": "military",
-      "organization": "US Army Reserves",
+      "organization": "US Marine Corps Reserves",
       "position": "NCO",
       "startDate": "2000-08",
       "endDate": "2008-07",
-      "website": "http://www.usar.army.mil/",
+      "website": "http://www.usmc.mil/",
       "summary": "Summary of this military stint.",
       "highlights": [
         "Accomplishment 1",
@@ -38,7 +18,7 @@
       ]
     }
   ],
-  "awards": [
+  "awardsPH": [
     {
       "flavor": "award",
       "title": "Honorable Mention",
