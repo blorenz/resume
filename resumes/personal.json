@@ -27,12 +27,12 @@
 
   "interests": [
     {
-      "name": "hockey",
-      "summary": "I play for the Columbus Thunder in the Columbus Adult Hockey D League. I have contributed to three Championship wins since starting hockey in Jan 2015."
-    },
-    {
       "name": "Youth Engineering",
       "summary": "I am passionate about introducing engineering and software development to youth education. I have served as a mentor for the Coding Club at Liberty Christian Academy based on Google's education program. I look forward to establishing a program in cooperation with the local library to introduce and acclimate kids to these topics. I work with my 10-year old daughter in her passionate exploration of all things STEM-related."
+    },
+    {
+      "name": "hockey",
+      "summary": "I play for the Columbus Thunder in the Columbus Adult Hockey D League. I have contributed to three Championship wins since starting hockey in Jan 2015."
     }
   ],
   "references": 0,

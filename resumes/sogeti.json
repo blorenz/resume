@@ -12,6 +12,15 @@
       "summary": "Contractor Developer",
       "clients": [
         {
+          "title": "Victoria's Secret",
+          "url": "https://victoriassecret.com",
+          "position": "contractor",
+          "startDate": "2011-09",
+          "endDate": "2011-12",
+          "summary": "work"
+
+        },
+        {
           "title": "Abercrombie & Fitch",
           "url": "https://anf.com",
           "position": "contractor",

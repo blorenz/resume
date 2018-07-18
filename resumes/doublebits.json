@@ -1,5 +1,4 @@
 {
-
   "work": [
     {
       "company": "Double Bits Ltd.",
@@ -8,7 +7,23 @@
       "priority": 2,
       "summary": "",
       "highlights": [
-
+      ],
+      "projects": [
+        {"startDate":"2016-11", "title": "Resume Site", "noEndDate": true,  "summary": "This site is a custom built resume management system distorting toward developer-type resumes."},
+        {"startDate":"2017-12", "title": "Blue Spark 2018", "noEndDate": true,  "summary": "This application managed the check-ins for hundreds of attendees at tradeshow. It interfaced with a barcode scanner where booth attendants would scan the attendees for CRM follow-up."},
+        {"startDate":"2016-11", "title": "Blue Spark 2017", "noEndDate": true,  "summary": "This application managed the check-ins for hundreds of attendees at tradeshow. It interfaced with a barcode scanner where booth attendants would scan the attendees for CRM follow-up."},
+        {"startDate":"2015-11", "title": "Blue Spark 2016", "noEndDate": true,  "summary": "This application managed the check-ins for hundreds of attendees at tradeshow. It interfaced with a barcode scanner where booth attendants would scan the attendees for CRM follow-up."},
+        {"startDate":"2015-10", "title": "Title not disclosed", "noEndDate": true,  "summary": "Customer desired to have a native iOS application that could download and play offline content of prepared speaking presentations."},
+        {"startDate":"2015-09", "title": "Tixers", "noEndDate": true,  "summary": "Tixers is a third-party ticket marketplace for sports, music and other events."},
+        {"startDate":"2014-09", "title": "Title not disclosed", "noEndDate": true,  "summary": "Posed with a frequently updated content, this application is a solution for qualified speakers to access content and assemble presentations. The application features authenticated user management."},
+        {"startDate":"2014-06", "title": "Guardiant", "noEndDate": true,  "summary": "Internal customized CMS-based site for Guardiant."},
+        {"startDate":"2014-04", "title": "Hunger Hub", "noEndDate": true,  "summary": "This application commission provided search and identification of the various food banks and feeding sites throughout Central Ohio in cooperation with Hands On Central Ohio."},
+        {"startDate":"2013-11", "title": "Presentation Builder", "noEndDate": true,  "summary": "Designed and maintain Web application that manages approved content for doctors and speakers to create and manage presentations for Fortune 500 company."},
+        {"startDate":"2013-08", "title": "Braner", "noEndDate": true,  "summary": "Internal customized CMS-based site for Braner."},
+        {"startDate":"2013-06", "title": "fōnhunt", "noEndDate": true,  "summary": "fōnhunt is a game platform where teams explore a setting to solve puzzles and clues using their own phones. Played either as a one time event, perfect for team-building, fundraising, or trade shows, or as an ongoing version to engage guests at venues such as resorts, zoos, or museums."},
+        {"startDate":"2013-05", "title": "Title not disclosed", "noEndDate": true,  "summary": "Business developers and community are brought together in this platform to discuss wants, needs and desires."},
+        {"startDate":"2012-08", "title": "Hilton Explorer", "noEndDate": true,  "summary": "The Columbus Hilton is home to many works of art. The Hilton Explorer is a mobile accessible app that explores the art and artists whose works comprise the downtown hotel's collection."},
+        {"startDate":"2012-08", "title": "CPI", "noEndDate": true,  "summary": "Customized CMS-based site for Compressor Products Intl."}
       ]
     }
   ]

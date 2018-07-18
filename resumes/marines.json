@@ -1,6 +1,14 @@
 {
 
-  "work": [],
+  "work": [{
+    "company": "United States Marine Corps",
+    "startDate": "2000-08",
+    "endDate": "2008-08",
+    "projects": [
+      {"title":"Fallujah","noEndDate":true,"startDate": "2012-3", "summary":""},
+      {"title":"Baghdad Offensive","noEndDate":true,"startDate": "2012-3", "summary":""}
+    ]
+  }],
 
   "volunteer": [
     {

@@ -127,7 +127,7 @@
 
                     {{#if projects.length}}
                         <br/>
-                        <h2>Projects at {{company}}</h2>
+                        <h4>Projects at {{company}}</h4>
 
                         <ul class="highlights">
                             {{#each projects}}
@@ -147,14 +147,17 @@
                                             {{date startDate}}
                                         </span>
                                     {{/if}}
-                                    {{#if endDate}}
+                                    {{#if noEndDate}}
+                                    {{else}}
+                                        {{#if endDate}}
                                         <span class="endDate">
                                         - {{date endDate}}
-                                    </span>
-                                                            {{else}}
-                                                                <span class="endDate">
-                                        - Present
-                                    </span>
+                                        </span>
+                                        {{else}}
+                                            <span class="endDate">
+                                                - Present
+                                            </span>
+                                        {{/if}}
                                     {{/if}}
 
                                     {{#if summary}}
@@ -163,7 +166,7 @@
                                         </div>
                                     {{/if}}
 
-                                    {{#if highlights.length}}
+                                    {{#if highlightsDISABLED.length}}
                                         <ul class="highlights">
                                             {{#each highlights}}
                                                 <li>{{.}}</li>
@@ -177,7 +180,7 @@
                     {{/if}}
                     {{#if clients.length}}
                         <br/>
-                        <h2>Clients at {{company}}</h2>
+                        <h4>Clients at {{company}}</h4>
 
                         <ul class="highlights">
                             {{#each clients}}
