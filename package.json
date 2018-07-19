@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "dotsunited-merge-json resumes/*.json > resume.json && hackmyresume build resume.json TO docs/index.html -t themes/jsonresume-theme-short && open docs/index.html",
+    "pdf": "dotsunited-merge-json resumes/*.json > resume.json && hackmyresume build resume.json TO docs/resume.pdf -t themes/jsonresume-theme-short",
+    "doc": "dotsunited-merge-json resumes/*.json > resume.json && hackmyresume build resume.json TO docs/resume.docx -t themes/jsonresume-theme-short",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
