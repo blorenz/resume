@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4c9958e0-eea1-4e95-a053-58d5bd5c8cd1" name="Default" comment="Updating VS work.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume.json" beforeDir="false" afterPath="$PROJECT_DIR$/resume.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resumes/marines.json" beforeDir="false" afterPath="$PROJECT_DIR$/resumes/marines.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resumes/skills.json" beforeDir="false" afterPath="$PROJECT_DIR$/resumes/skills.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +51,7 @@
           <entry key="CSS" value="96" />
           <entry key="HTML" value="3" />
           <entry key="Handlebars/Mustache" value="426" />
-          <entry key="JSON" value="6489" />
+          <entry key="JSON" value="6496" />
           <entry key="JavaScript" value="126" />
           <entry key="PLAIN_TEXT" value="61" />
         </counts>
@@ -66,7 +64,7 @@
           <entry key="hbs" value="426" />
           <entry key="html" value="3" />
           <entry key="js" value="126" />
-          <entry key="json" value="6489" />
+          <entry key="json" value="6496" />
           <entry key="txt" value="61" />
         </counts>
       </usages-collector>
@@ -110,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resumes/skills.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="735">
+              <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -142,11 +140,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resumes/marines.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+            <state relative-caret-position="347">
+              <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -218,12 +216,12 @@
         <option value="$PROJECT_DIR$/resumes/doublebits.json" />
         <option value="$PROJECT_DIR$/resumes/sogeti.json" />
         <option value="$PROJECT_DIR$/resumes/dsci.json" />
-        <option value="$PROJECT_DIR$/resumes/skills.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/resumes/personal.json" />
         <option value="$PROJECT_DIR$/resumes/victoriassecret.json" />
         <option value="$PROJECT_DIR$/themes/jsonresume-theme-short/resume.hbs" />
         <option value="$PROJECT_DIR$/resumes/marines.json" />
+        <option value="$PROJECT_DIR$/resumes/skills.json" />
       </list>
     </option>
   </component>
@@ -300,7 +298,7 @@
     <property name="GO_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532004291087" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532004955449" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
@@ -407,7 +405,7 @@
       <workItem from="1531921184620" duration="2731000" />
       <workItem from="1531924422671" duration="26000" />
       <workItem from="1531924528110" duration="2281000" />
-      <workItem from="1531940831496" duration="12576000" />
+      <workItem from="1531940831496" duration="13257000" />
     </task>
     <task id="LOCAL-00001" summary="Merging resumes">
       <created>1526403453612</created>
@@ -493,11 +491,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532003760173</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Updating VS work.">
+      <created>1532004298849</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1532004298849</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34669000" />
+    <option name="totallyTimeSpent" value="35350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="504" y="583" width="2706" height="1516" extended-state="0" />
@@ -649,13 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resumes/skills.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/jsonresume-theme-short/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -705,6 +703,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resumes/marines.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/jsonresume-theme-short/resume.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4995">
@@ -712,10 +717,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resumes/marines.json">
+    <entry file="file://$PROJECT_DIR$/resumes/skills.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        <state relative-caret-position="735">
+          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
         </state>
       </provider>
     </entry>

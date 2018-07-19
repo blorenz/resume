@@ -76,7 +76,8 @@
       "level": "advanced",
       "keywords": [
         "Bamboo",
-        "Jenkins"
+        "Jenkins",
+        "Jest"
       ]
     }
   ]
