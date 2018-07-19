@@ -20,6 +20,7 @@
       "level": "master",
       "keywords": [
         "ReactJS",
+        "TypeScript",
         "NodeJS",
         "Webpack",
         "Babel"
@@ -38,7 +39,7 @@
       "level": "intermediate",
       "keywords": [
         "Docker",
-        "docker-compose"
+        "docker-compose orchestration"
       ]
     },
     {
@@ -64,9 +65,18 @@
       "level": "advanced",
       "keywords": [
         "Agile",
-        "Trello",
         "JIRA",
+        "Confluence",
+        "Trello",
         "GitHub"
+      ]
+    },
+    {
+      "name": "AT/CICD",
+      "level": "advanced",
+      "keywords": [
+        "Bamboo",
+        "Jenkins"
       ]
     }
   ]

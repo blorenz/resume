@@ -95,11 +95,11 @@ section h2 {
 }
 
 section h4 {
-	font-size: 120%;
+	font-size: 90%;
 	margin: 0 0 1em;
 	text-transform: uppercase;
 	color: #BC1B39;
-	font-weight: 400;
+	font-weight: 600;
 }
 
 
@@ -129,6 +129,12 @@ section h5 {
 	margin: 0.2em 1em 0.2em 0;
 	display: inline-block;
 	font-weight: 600;
+}
+
+.item header h3.name {
+	margin: 0.2em 1em 0.2em 0;
+	display: inline-block;
+	font-weight: 700;
 }
 
 .item header a {

@@ -20,6 +20,11 @@ function render(resume) {
 
 	  return months[theDate.getMonth()] + ' ' + theDate.getFullYear();
 	});
+    Handlebars.registerHelper('dateYear', function(date) {
+        var theDate = new Date(date);
+
+        return theDate.getFullYear();
+    });
 
 	fs.writeFile('test.json', JSON.stringify(resume), function(){})
 
@@ -40,21 +45,27 @@ Handlebars.registerHelper('paragraphSplit', function(plaintext) {
     return new Handlebars.SafeString(output);
 });
 
-Handlebars.registerHelper('each_with_sort', function(array, key, opts) {
+Handlebars.registerHelper('each_with_sort', function(array, key, reverse, opts) {
     var data, e, i, j, len, s;
     if (opts.data) {
         data = Handlebars.createFrame(opts.data);
     }
+
+
     array = array.sort(function(a, b) {
         a = a[key];
         b = b[key];
         if (a > b) {
+            if (reverse)
+                return -1;
             return 1;
         }
         if (a === b) {
             return 0;
         }
         if (a < b) {
+            if (reverse)
+                return 1;
             return -1;
         }
     });

@@ -80,7 +80,7 @@
     {{#if resume.work.length}}
         <section class="experience">
             <h2>Experience</h2>
-            {{#each_with_sort resume.work "priority"}}
+            {{#each_with_sort resume.work "priority" false}}
                 <section class="item">
                     <header>
                         {{#if company}}
@@ -127,14 +127,19 @@
 
                     {{#if projects.length}}
                         <br/>
-                        <h4>Projects at {{company}}</h4>
+                        {{#if projectsLabel}}
+                            <h4>{{projectsLabel}}</h4>
+                            {{else}}
+                            <h4>Projects at {{company}}</h4>
+
+                        {{/if}}
 
                         <ul class="highlights">
-                            {{#each projects}}
+                            {{#each_with_sort projects "startDate" true }}
                                 <section class="item">
                                     <header>
                                         {{#if title}}
-                                            <h3 class="name">{{title}}</h3>
+                                            <h3 class="project-name">{{title}}</h3>
                                         {{/if}}
                                     </header>
                                     {{#if position}}
@@ -144,7 +149,7 @@
                                     {{/if}}
                                     {{#if startDate}}
                                         <span class="startDate">
-                                            {{date startDate}}
+                                            {{dateYear startDate}}
                                         </span>
                                     {{/if}}
                                     {{#if noEndDate}}
@@ -175,7 +180,7 @@
                                     {{/if}}
 
                                 </section>
-                            {{/each}}
+                            {{/each_with_sort}}
                         </ul>
                     {{/if}}
                     {{#if clients.length}}
@@ -187,7 +192,7 @@
                                 <section class="item">
                                     <header>
                                         {{#if title}}
-                                            <h3 class="name">{{title}}</h3>
+                                            <h3 class="highlight-name">{{title}}</h3>
                                         {{/if}}
                                     </header>
                                     {{#if position}}
