@@ -39,18 +39,24 @@
       ]
     }
   ],
-  "awardsPH": [
+  "awards": [
     {
       "flavor": "award",
-      "title": "Honorable Mention",
-      "date": "2012",
-      "awarder": "Google"
+      "title": "Presidential Unit Citation",
+      "date": "2003-07",
+      "awarder": "President George W. Bush"
     },
     {
-      "flavor": "honor",
-      "title": "Summa cum laude",
-      "date": "2012",
-      "awarder": "Cornell University"
+      "flavor": "award",
+      "title": "Navy and Marine Corps Achievement Medal",
+      "date": "2005-07",
+      "awarder": "USMC"
+    },
+    {
+      "flavor": "award",
+      "title": "Combat Action Ribbon",
+      "date": "2003-07",
+      "awarder": "USMC"
     }
   ]
 }
